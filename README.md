@@ -12,6 +12,7 @@ A C++ single-file header-only pagerank library
 </p>
 
 ```cpp
+//main.cpp
 int main() {
     pagerank::matrix::matrix_t matrix = {
         {0, 1, 1, 1},
@@ -20,7 +21,6 @@ int main() {
         {1, 0, 0, 0},
     };
     
-    auto size = matrix.size();
     auto score = pagerank::compute(matrix);
     
     for (int i = 0; i < size; i++) {
