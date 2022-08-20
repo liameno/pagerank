@@ -6,11 +6,6 @@
 A C++ single-file header-only pagerank library
 
 ## Example
-<p align="center">
-  <img src="assets/example-light.png#gh-light-mode-only" width="350px" />
-  <img src="assets/example-dark.png#gh-dark-mode-only" width="350px" />
-</p>
-
 ```cpp
 //main.cpp
 int main() {
